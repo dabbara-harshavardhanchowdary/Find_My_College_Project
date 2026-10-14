@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1002371358622",
+    "project_id": "find-my-college-222",
+    "storage_bucket": "find-my-college-222.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002371358622:android:df5e6443744898833dc08f",
+        "android_client_info": {
+          "package_name": "com.findmycollege.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002371358622-qnko723od0006h17r8jipa2ocj0sohim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBknhcc4ioksx9u6qheobbC_rHIpoqILSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002371358622-qnko723od0006h17r8jipa2ocj0sohim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

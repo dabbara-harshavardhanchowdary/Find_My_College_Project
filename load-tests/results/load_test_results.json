@@ -1,0 +1,516 @@
+{
+  "config": {
+    "targetUrl": "http://localhost:5500",
+    "virtualUsers": 100,
+    "durationSeconds": 60,
+    "timeoutMs": 10000,
+    "endpoints": [
+      "/",
+      "/api/health",
+      "/api/colleges",
+      "/api/colleges?stream=Engineering",
+      "/api/colleges?stream=Management",
+      "/api/colleges/search?q=Delhi",
+      "/api/colleges/iit-madras",
+      "/api/auth/status"
+    ],
+    "resultsDir": "C:\\Users\\harsh\\.vscode\\Projects\\Find_My_College\\load-tests\\results"
+  },
+  "summary": {
+    "actualDurationSeconds": 60.019206,
+    "totalRequests": 552101,
+    "successfulRequests": 552101,
+    "failedRequests": 0,
+    "successRatePercent": 100,
+    "overallRps": 9199,
+    "peakRps": 9923,
+    "totalDataMb": 4623.02,
+    "throughputMbSec": 77.03
+  },
+  "latency": {
+    "min": 0.1437999999998283,
+    "max": 120.10860000000001,
+    "avg": 10.862017732443546,
+    "p50": 9.335299999998824,
+    "p90": 17.265699999999924,
+    "p95": 21.301800000001094,
+    "p99": 30.54780000000028
+  },
+  "statusCodes": {
+    "200": 552101
+  },
+  "timeSeries": [
+    {
+      "second": 1,
+      "rps": 6056,
+      "avgLatency": 16.445093840819023,
+      "minLatency": 7.357500000000073,
+      "maxLatency": 120.10860000000001,
+      "cumulativeRequests": 6056
+    },
+    {
+      "second": 2,
+      "rps": 7838,
+      "avgLatency": 12.79202003062006,
+      "minLatency": 6.313200000000052,
+      "maxLatency": 61.69939999999997,
+      "cumulativeRequests": 13894
+    },
+    {
+      "second": 3,
+      "rps": 8701,
+      "avgLatency": 11.514485622342221,
+      "minLatency": 5.453599999999824,
+      "maxLatency": 50.1545000000001,
+      "cumulativeRequests": 22595
+    },
+    {
+      "second": 4,
+      "rps": 9022,
+      "avgLatency": 11.03439255154068,
+      "minLatency": 2.562800000000152,
+      "maxLatency": 41.35360000000037,
+      "cumulativeRequests": 31617
+    },
+    {
+      "second": 5,
+      "rps": 9274,
+      "avgLatency": 10.861357817554472,
+      "minLatency": 0.1437999999998283,
+      "maxLatency": 40.33669999999984,
+      "cumulativeRequests": 40891
+    },
+    {
+      "second": 6,
+      "rps": 9679,
+      "avgLatency": 10.342732059097019,
+      "minLatency": 1.9765999999999622,
+      "maxLatency": 38.35199999999986,
+      "cumulativeRequests": 50570
+    },
+    {
+      "second": 7,
+      "rps": 9177,
+      "avgLatency": 10.912152359158744,
+      "minLatency": 1.897700000000441,
+      "maxLatency": 41.55209999999988,
+      "cumulativeRequests": 59747
+    },
+    {
+      "second": 8,
+      "rps": 9274,
+      "avgLatency": 10.839581000647005,
+      "minLatency": 3.568500000000313,
+      "maxLatency": 39.21190000000024,
+      "cumulativeRequests": 69021
+    },
+    {
+      "second": 9,
+      "rps": 9027,
+      "avgLatency": 10.943945674088809,
+      "minLatency": 1.4416999999994005,
+      "maxLatency": 40.354700000000776,
+      "cumulativeRequests": 78048
+    },
+    {
+      "second": 10,
+      "rps": 8799,
+      "avgLatency": 11.61793757245136,
+      "minLatency": 2.019800000000032,
+      "maxLatency": 80.8073000000004,
+      "cumulativeRequests": 86847
+    },
+    {
+      "second": 11,
+      "rps": 9362,
+      "avgLatency": 10.713239745780864,
+      "minLatency": 0.5037000000011176,
+      "maxLatency": 42.26770000000033,
+      "cumulativeRequests": 96209
+    },
+    {
+      "second": 12,
+      "rps": 9012,
+      "avgLatency": 11.038158111406993,
+      "minLatency": 1.7826999999997497,
+      "maxLatency": 41.877700000000914,
+      "cumulativeRequests": 105221
+    },
+    {
+      "second": 13,
+      "rps": 9451,
+      "avgLatency": 10.648269780975538,
+      "minLatency": 2.8634000000001834,
+      "maxLatency": 37.328199999999924,
+      "cumulativeRequests": 114672
+    },
+    {
+      "second": 14,
+      "rps": 8991,
+      "avgLatency": 11.042101178956731,
+      "minLatency": 2.460799999998926,
+      "maxLatency": 40.203300000001036,
+      "cumulativeRequests": 123663
+    },
+    {
+      "second": 15,
+      "rps": 9450,
+      "avgLatency": 10.65651059259262,
+      "minLatency": 2.474400000000969,
+      "maxLatency": 41.77989999999954,
+      "cumulativeRequests": 133113
+    },
+    {
+      "second": 16,
+      "rps": 9435,
+      "avgLatency": 10.632130058293601,
+      "minLatency": 1.6449000000011438,
+      "maxLatency": 43.30500000000029,
+      "cumulativeRequests": 142548
+    },
+    {
+      "second": 17,
+      "rps": 9375,
+      "avgLatency": 10.688393642666632,
+      "minLatency": 1.5441999999966356,
+      "maxLatency": 50.621399999999994,
+      "cumulativeRequests": 151923
+    },
+    {
+      "second": 18,
+      "rps": 9686,
+      "avgLatency": 10.38693780714434,
+      "minLatency": 2.0769000000000233,
+      "maxLatency": 42.436799999999494,
+      "cumulativeRequests": 161609
+    },
+    {
+      "second": 19,
+      "rps": 9209,
+      "avgLatency": 10.760880030405067,
+      "minLatency": 0.3117999999994936,
+      "maxLatency": 41.29019999999946,
+      "cumulativeRequests": 170818
+    },
+    {
+      "second": 20,
+      "rps": 9233,
+      "avgLatency": 10.932101191378742,
+      "minLatency": 3.3830999999991036,
+      "maxLatency": 44.82890000000043,
+      "cumulativeRequests": 180051
+    },
+    {
+      "second": 21,
+      "rps": 9465,
+      "avgLatency": 10.590046656101395,
+      "minLatency": 1.995600000002014,
+      "maxLatency": 52.491299999997864,
+      "cumulativeRequests": 189516
+    },
+    {
+      "second": 22,
+      "rps": 9910,
+      "avgLatency": 10.103599959636735,
+      "minLatency": 2.1622999999999593,
+      "maxLatency": 41.97490000000107,
+      "cumulativeRequests": 199426
+    },
+    {
+      "second": 23,
+      "rps": 9477,
+      "avgLatency": 10.534990830431589,
+      "minLatency": 0.5165000000015425,
+      "maxLatency": 36.18319999999949,
+      "cumulativeRequests": 208903
+    },
+    {
+      "second": 24,
+      "rps": 9592,
+      "avgLatency": 10.430548634278539,
+      "minLatency": 0.8362000000015541,
+      "maxLatency": 52.42540000000008,
+      "cumulativeRequests": 218495
+    },
+    {
+      "second": 25,
+      "rps": 9151,
+      "avgLatency": 10.866266965358971,
+      "minLatency": 0.305899999999383,
+      "maxLatency": 39.115499999999884,
+      "cumulativeRequests": 227646
+    },
+    {
+      "second": 26,
+      "rps": 9140,
+      "avgLatency": 10.977894671772436,
+      "minLatency": 0.5198999999993248,
+      "maxLatency": 44.53600000000006,
+      "cumulativeRequests": 236786
+    },
+    {
+      "second": 27,
+      "rps": 9297,
+      "avgLatency": 10.723345928794231,
+      "minLatency": 2.2186000000001513,
+      "maxLatency": 36.693999999999505,
+      "cumulativeRequests": 246083
+    },
+    {
+      "second": 28,
+      "rps": 8712,
+      "avgLatency": 11.50758931359046,
+      "minLatency": 2.3320999999996275,
+      "maxLatency": 47.38170000000173,
+      "cumulativeRequests": 254795
+    },
+    {
+      "second": 29,
+      "rps": 9028,
+      "avgLatency": 11.012046964997769,
+      "minLatency": 2.3981000000021595,
+      "maxLatency": 44.65899999999965,
+      "cumulativeRequests": 263823
+    },
+    {
+      "second": 30,
+      "rps": 8976,
+      "avgLatency": 11.18236316844921,
+      "minLatency": 1.8374000000003434,
+      "maxLatency": 54.11460000000079,
+      "cumulativeRequests": 272799
+    },
+    {
+      "second": 31,
+      "rps": 9351,
+      "avgLatency": 10.663696684846538,
+      "minLatency": 1.4586999999992258,
+      "maxLatency": 48.79349999999977,
+      "cumulativeRequests": 282150
+    },
+    {
+      "second": 32,
+      "rps": 8995,
+      "avgLatency": 11.152582579210694,
+      "minLatency": 2.25,
+      "maxLatency": 52.38720000000103,
+      "cumulativeRequests": 291145
+    },
+    {
+      "second": 33,
+      "rps": 9233,
+      "avgLatency": 10.852585530163532,
+      "minLatency": 2.806400000001304,
+      "maxLatency": 44.622199999997974,
+      "cumulativeRequests": 300378
+    },
+    {
+      "second": 34,
+      "rps": 9351,
+      "avgLatency": 10.74942138808682,
+      "minLatency": 0.5475000000005821,
+      "maxLatency": 45.28779999999824,
+      "cumulativeRequests": 309729
+    },
+    {
+      "second": 35,
+      "rps": 9186,
+      "avgLatency": 10.880724526453253,
+      "minLatency": 1.075299999996787,
+      "maxLatency": 50.228399999999965,
+      "cumulativeRequests": 318915
+    },
+    {
+      "second": 36,
+      "rps": 9490,
+      "avgLatency": 10.578704520547966,
+      "minLatency": 1.0559999999968568,
+      "maxLatency": 52.62750000000233,
+      "cumulativeRequests": 328405
+    },
+    {
+      "second": 37,
+      "rps": 9889,
+      "avgLatency": 10.091904853878004,
+      "minLatency": 0.1815000000060536,
+      "maxLatency": 38.955699999998615,
+      "cumulativeRequests": 338294
+    },
+    {
+      "second": 38,
+      "rps": 8937,
+      "avgLatency": 11.234409578158234,
+      "minLatency": 1.8758000000016182,
+      "maxLatency": 49.49470000000292,
+      "cumulativeRequests": 347231
+    },
+    {
+      "second": 39,
+      "rps": 9210,
+      "avgLatency": 10.84701866449508,
+      "minLatency": 1.4265999999988708,
+      "maxLatency": 51.227899999998044,
+      "cumulativeRequests": 356441
+    },
+    {
+      "second": 40,
+      "rps": 9605,
+      "avgLatency": 10.409915231650151,
+      "minLatency": 2.2894000000014785,
+      "maxLatency": 38.11439999999857,
+      "cumulativeRequests": 366046
+    },
+    {
+      "second": 41,
+      "rps": 9646,
+      "avgLatency": 10.339804945054949,
+      "minLatency": 2.3021999999982654,
+      "maxLatency": 41.88319999999658,
+      "cumulativeRequests": 375692
+    },
+    {
+      "second": 42,
+      "rps": 9923,
+      "avgLatency": 10.096465010581515,
+      "minLatency": 2.529999999998836,
+      "maxLatency": 35.38850000000093,
+      "cumulativeRequests": 385615
+    },
+    {
+      "second": 43,
+      "rps": 9762,
+      "avgLatency": 10.24444781807013,
+      "minLatency": 2.4439999999958673,
+      "maxLatency": 43.693200000001525,
+      "cumulativeRequests": 395377
+    },
+    {
+      "second": 44,
+      "rps": 9881,
+      "avgLatency": 10.080347414229385,
+      "minLatency": 1.9035000000003492,
+      "maxLatency": 35.81910000000062,
+      "cumulativeRequests": 405258
+    },
+    {
+      "second": 45,
+      "rps": 9723,
+      "avgLatency": 10.278743978196063,
+      "minLatency": 1.7456999999994878,
+      "maxLatency": 34.243799999996554,
+      "cumulativeRequests": 414981
+    },
+    {
+      "second": 46,
+      "rps": 9819,
+      "avgLatency": 10.226179366534316,
+      "minLatency": 1.603000000002794,
+      "maxLatency": 42.8295999999973,
+      "cumulativeRequests": 424800
+    },
+    {
+      "second": 47,
+      "rps": 9497,
+      "avgLatency": 10.539374518268938,
+      "minLatency": 1.6576999999961117,
+      "maxLatency": 45.36599999999453,
+      "cumulativeRequests": 434297
+    },
+    {
+      "second": 48,
+      "rps": 9185,
+      "avgLatency": 10.926760359281499,
+      "minLatency": 1.773300000000745,
+      "maxLatency": 43.11329999999725,
+      "cumulativeRequests": 443482
+    },
+    {
+      "second": 49,
+      "rps": 9129,
+      "avgLatency": 10.934990152262056,
+      "minLatency": 2.0684000000037486,
+      "maxLatency": 38.21379999999772,
+      "cumulativeRequests": 452611
+    },
+    {
+      "second": 50,
+      "rps": 8945,
+      "avgLatency": 11.228995114589095,
+      "minLatency": 2.022499999999127,
+      "maxLatency": 50.39639999999781,
+      "cumulativeRequests": 461556
+    },
+    {
+      "second": 51,
+      "rps": 9095,
+      "avgLatency": 10.998190104452997,
+      "minLatency": 2.052300000003015,
+      "maxLatency": 41.41580000000249,
+      "cumulativeRequests": 470651
+    },
+    {
+      "second": 52,
+      "rps": 8449,
+      "avgLatency": 11.807269404663268,
+      "minLatency": 1.8550000000032014,
+      "maxLatency": 46.94419999999809,
+      "cumulativeRequests": 479100
+    },
+    {
+      "second": 53,
+      "rps": 9340,
+      "avgLatency": 10.705416081370418,
+      "minLatency": 1.9729000000006636,
+      "maxLatency": 40.88160000000062,
+      "cumulativeRequests": 488440
+    },
+    {
+      "second": 54,
+      "rps": 9379,
+      "avgLatency": 10.71338049898706,
+      "minLatency": 2.1498999999967054,
+      "maxLatency": 36.94930000000022,
+      "cumulativeRequests": 497819
+    },
+    {
+      "second": 55,
+      "rps": 9208,
+      "avgLatency": 10.813040986098995,
+      "minLatency": 1.9913000000015018,
+      "maxLatency": 37.12630000000354,
+      "cumulativeRequests": 507027
+    },
+    {
+      "second": 56,
+      "rps": 9548,
+      "avgLatency": 10.508183713866794,
+      "minLatency": 2.3044000000008964,
+      "maxLatency": 43.72410000000673,
+      "cumulativeRequests": 516575
+    },
+    {
+      "second": 57,
+      "rps": 9324,
+      "avgLatency": 10.785803882453914,
+      "minLatency": 1.9023999999990338,
+      "maxLatency": 39.810199999999895,
+      "cumulativeRequests": 525899
+    },
+    {
+      "second": 58,
+      "rps": 9052,
+      "avgLatency": 11.005812549712768,
+      "minLatency": 2.1200000000026193,
+      "maxLatency": 37.94859999999608,
+      "cumulativeRequests": 534951
+    },
+    {
+      "second": 59,
+      "rps": 9331,
+      "avgLatency": 10.759323984567576,
+      "minLatency": 1.7137000000002445,
+      "maxLatency": 42.60020000000077,
+      "cumulativeRequests": 544282
+    }
+  ]
+}

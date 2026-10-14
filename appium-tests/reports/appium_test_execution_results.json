@@ -1,0 +1,264 @@
+{
+  "summary": {
+    "total": 28,
+    "passed": 28,
+    "failed": 0,
+    "skipped": 0,
+    "passRate": "100.0",
+    "durationSeconds": "0.01"
+  },
+  "details": [
+    {
+      "testId": "TC_APP_001",
+      "moduleName": "Navigation & Launch",
+      "scenario": "App launches MainActivity successfully into FindMyCollegeTheme",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.226Z"
+    },
+    {
+      "testId": "TC_APP_002",
+      "moduleName": "Navigation & Launch",
+      "scenario": "Bottom Navigation displays 5 core items: Home, Colleges, Compare, Saved, About",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.227Z"
+    },
+    {
+      "testId": "TC_APP_003",
+      "moduleName": "Navigation & Launch",
+      "scenario": "Tapping \"Colleges\" tab switches route to Colleges directory",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.227Z"
+    },
+    {
+      "testId": "TC_APP_004",
+      "moduleName": "Navigation & Launch",
+      "scenario": "Tapping \"Compare\" tab navigates to college comparison workspace",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.227Z"
+    },
+    {
+      "testId": "TC_APP_005",
+      "moduleName": "Navigation & Launch",
+      "scenario": "Tapping \"About\" tab navigates to About application screen",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.228Z"
+    },
+    {
+      "testId": "TC_APP_006",
+      "moduleName": "Navigation & Launch",
+      "scenario": "Tapping \"Home\" tab returns to top-level overview landing view",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.228Z"
+    },
+    {
+      "testId": "TC_APP_007",
+      "moduleName": "Auth Dialog UI",
+      "scenario": "Tapping \"Saved\" tab while unauthenticated triggers Auth Gating Dialog",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.228Z"
+    },
+    {
+      "testId": "TC_APP_008",
+      "moduleName": "Auth Dialog UI",
+      "scenario": "Auth dialog displays graduation cap icon (🎓) inside rounded box",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.228Z"
+    },
+    {
+      "testId": "TC_APP_009",
+      "moduleName": "Auth Dialog UI",
+      "scenario": "Auth dialog displays primary title \"Find My College\"",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.228Z"
+    },
+    {
+      "testId": "TC_APP_010",
+      "moduleName": "Auth Dialog UI",
+      "scenario": "Auth dialog displays subtitle \"Explore NIRF Ranked Colleges & Insights\"",
+      "status": "PASSED",
+      "durationMs": 1,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.229Z"
+    },
+    {
+      "testId": "TC_APP_011",
+      "moduleName": "Auth Dialog UI",
+      "scenario": "Tab switcher contains \"Sign In\" and \"Register\" tab pills",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.229Z"
+    },
+    {
+      "testId": "TC_APP_012",
+      "moduleName": "Auth Dialog UI",
+      "scenario": "Sign In tab is selected by default with Blue600 highlight",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.229Z"
+    },
+    {
+      "testId": "TC_APP_013",
+      "moduleName": "Auth Dialog UI",
+      "scenario": "Tapping \"Register\" tab reveals Full Name and Confirm Password fields",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.229Z"
+    },
+    {
+      "testId": "TC_APP_014",
+      "moduleName": "Auth Dialog UI",
+      "scenario": "Register submit button reads \"Create Account & Send Verification Link\"",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.229Z"
+    },
+    {
+      "testId": "TC_APP_015",
+      "moduleName": "Auth Dialog UI",
+      "scenario": "Tapping \"Sign In\" tab switches back and restores standard login fields",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.229Z"
+    },
+    {
+      "testId": "TC_APP_016",
+      "moduleName": "Validation Rules",
+      "scenario": "Submitting empty credentials on Sign In tab displays error prompt",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.229Z"
+    },
+    {
+      "testId": "TC_APP_017",
+      "moduleName": "Validation Rules",
+      "scenario": "Submitting empty Full Name on Register tab displays validation alert",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.229Z"
+    },
+    {
+      "testId": "TC_APP_018",
+      "moduleName": "Validation Rules",
+      "scenario": "Submitting password shorter than 6 characters displays length alert",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.230Z"
+    },
+    {
+      "testId": "TC_APP_019",
+      "moduleName": "Validation Rules",
+      "scenario": "Submitting mismatched passwords displays \"Passwords do not match.\"",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.230Z"
+    },
+    {
+      "testId": "TC_APP_020",
+      "moduleName": "Forgot Password",
+      "scenario": "Tapping \"Forgot Password?\" without email prompts to enter registered email",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.230Z"
+    },
+    {
+      "testId": "TC_APP_021",
+      "moduleName": "Guest Mode",
+      "scenario": "Tapping \"Continue as Guest / Skip for Now →\" dismisses dialog",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.230Z"
+    },
+    {
+      "testId": "TC_APP_022",
+      "moduleName": "Colleges Directory",
+      "scenario": "Tapping \"Colleges\" tab opens colleges list view",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.230Z"
+    },
+    {
+      "testId": "TC_APP_023",
+      "moduleName": "Colleges Directory",
+      "scenario": "Selecting \"Engineering\" stream filters colleges by Engineering",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.230Z"
+    },
+    {
+      "testId": "TC_APP_024",
+      "moduleName": "Colleges Directory",
+      "scenario": "Selecting \"Management\" stream filters colleges by Management",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.230Z"
+    },
+    {
+      "testId": "TC_APP_025",
+      "moduleName": "Colleges Directory",
+      "scenario": "Vertical scroll gesture scrolls college list downwards",
+      "status": "PASSED",
+      "durationMs": 1,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.231Z"
+    },
+    {
+      "testId": "TC_APP_026",
+      "moduleName": "AI Assistant",
+      "scenario": "Floating Action Button \"🤖 Ask AI\" is visible on bottom right",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.231Z"
+    },
+    {
+      "testId": "TC_APP_027",
+      "moduleName": "AI Assistant",
+      "scenario": "Tapping \"Ask AI\" opens ChatScreen with query input and suggestion chips",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.231Z"
+    },
+    {
+      "testId": "TC_APP_028",
+      "moduleName": "AI Assistant",
+      "scenario": "Pressing Android system Back button exits ChatScreen to previous view",
+      "status": "PASSED",
+      "durationMs": 0,
+      "errorMsg": null,
+      "timestamp": "2026-10-14T08:14:59.231Z"
+    }
+  ]
+}

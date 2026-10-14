@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Secrets & Cloud Credentials (CRITICAL)
+serviceAccountKey.json
+*/serviceAccountKey.json
+*.env
+*.env.local
+
+# Android & Gradle Build Artifacts
+.gradle/
+build/
+app/build/
+Mobile_Application/.gradle/
+Mobile_Application/app/build/
+local.properties
+*.apk
+*.aab
+
+# IDE & OS Files
+.idea/
+.vscode/
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Test temporary logs & caches
+*.log
+npm-debug.log*
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Keep Excel reports and test results
+!*.xlsx

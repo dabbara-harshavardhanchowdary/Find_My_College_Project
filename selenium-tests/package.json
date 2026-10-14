@@ -1,0 +1,35 @@
+{
+  "name": "find-my-college-selenium-e2e-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive Selenium WebDriver E2E Automation Test Suite for Find My College Web Application Frontend Authentication & Login Flow",
+  "main": "tests/login-tests.js",
+  "scripts": {
+    "test": "node tests/login-tests.js",
+    "test:mocha": "mocha tests/login-tests.js --timeout 60000 --exit",
+    "test:headed": "node tests/login-tests.js --headed",
+    "test:chrome": "cross-env BROWSER=chrome node tests/login-tests.js",
+    "test:firefox": "cross-env BROWSER=firefox node tests/login-tests.js",
+    "test:edge": "cross-env BROWSER=edge node tests/login-tests.js",
+    "generate-report": "python generate_test_report_excel.py"
+  },
+  "keywords": [
+    "selenium",
+    "webdriver",
+    "e2e",
+    "testing",
+    "authentication",
+    "login",
+    "find-my-college"
+  ],
+  "author": "Find My College QA Automation Engineering Team",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chromedriver": "^120.0.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "geckodriver": "^4.3.0",
+    "mocha": "^10.4.0",
+    "selenium-webdriver": "^4.19.0"
+  }
+}

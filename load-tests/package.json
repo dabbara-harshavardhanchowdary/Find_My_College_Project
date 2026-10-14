@@ -1,0 +1,24 @@
+{
+  "name": "find-my-college-load-tests",
+  "version": "1.0.0",
+  "description": "Baseline & High-Concurrency Load Testing Suite for Find My College (100 Virtual Users, 1 Minute Continuous Run)",
+  "main": "load-test.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node load-test.js",
+    "test:100vus": "node load-test.js --users 100 --duration 60",
+    "test:smoke": "node load-test.js --users 20 --duration 10",
+    "report": "python generate_load_report.py"
+  },
+  "keywords": [
+    "load-testing",
+    "performance",
+    "stress-testing",
+    "baseline",
+    "100-virtual-users",
+    "rps",
+    "latency"
+  ],
+  "author": "Find My College QA Performance Engineering Team",
+  "license": "ISC"
+}
