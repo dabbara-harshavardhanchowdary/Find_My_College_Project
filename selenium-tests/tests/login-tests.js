@@ -459,10 +459,15 @@ async function createWebDriver(browserName = CONFIG.browser, isHeadless = CONFIG
             '--disable-gpu',
             '--no-sandbox',
             '--disable-dev-shm-usage',
+            '--disable-setuid-sandbox',
             '--window-size=1920,1080',
             '--disable-web-security',
-            '--allow-running-insecure-content'
+            '--allow-running-insecure-content',
+            '--remote-debugging-port=9222'
         );
+        if (process.env.CHROME_BIN) {
+            options.setChromeBinaryPath(process.env.CHROME_BIN);
+        }
         builder = builder.setChromeOptions(options);
     } else if (browserName === 'firefox') {
         const options = new firefox.Options();
